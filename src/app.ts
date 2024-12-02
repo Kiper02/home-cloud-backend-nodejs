@@ -10,6 +10,6 @@ app.use(fileupload());
 app.use(express.json());
 
 
-app.use("/api")
+// app.use("/api")
 
 export default app;
