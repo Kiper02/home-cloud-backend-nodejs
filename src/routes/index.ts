@@ -4,7 +4,7 @@ import authRouter from './authRouter.js';
 
 const router = Router()
 
-router.use('auth', authRouter)
+router.use('/auth', authRouter)
 // router.use('file')
 
 
